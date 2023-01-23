@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Georgia Bulldogs Landing Page</title>
+</head>
+    <body>
+        <header>
+            <img src="img/georgia text.png" class="text" alt="Georgia text">
+            <div class="image">
+              <img src="img/bulldogs.jpg" alt="Georgia Bulldogs">
+            </div>
+            <img src="img/bulldogs text.png" class="text" alt="Bulldogs text">
+        </header>
+        <div id="audio">
+            <div class="track">
+               <h5>Dies Irae</h5>
+                <audio controls>
+                   <source src="audio/dies_irae.mp3" type="audio/mp3">
+                   Your browser does not support the audio tag.
+                </audio>
+            </div>
+
+            <div class="track">
+               <h5>Fight Song</h5>
+                <audio controls>
+                   <source src="audio/fight song.mp3" type="audio/mp3">
+                   Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="red"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <section class="photos">
+            <div class="photo-row">
+               <img src="img/players-3.jpg" data-aos="zoom-in" alt="Celebration 2021">
+               <img src="img/players-2.jpg" data-aos="zoom-in" alt="celebration 2022">
+            </div>
+            <div class="photo-row_2">
+               <img src="logos/sec_logo.png" data-aos="fade-in" data-aos-delay="500" alt="SEC Logo">
+               <img src="img/players-4.jpg" data-aos="zoom-in-up" alt="players celebrating">
+               <img src="logos/logo.png" data-aos="fade-in" data-aos-delay="500" alt="Georgia Logo">
+            </div>
+        </section>
+
+        <!--<section class="schedule">
+            <div class="schedule-2021" data-aos="flip-left">
+                <h2>2021 schedule and results</h2>
+                <div class="games">
+                    <div class="game">
+                       <h3>9/4</h3>
+                       <img src="img/clemson.png" alt="Clemson Logo">
+                       <h3>clemson <span><i>(Charlotte, NC)</i></span></h3> 
+                       <h3>10-3 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                       <h3>9/11</h3>
+                       <img src="img/uab.png" alt="UAB logo">
+                       <h3>UAB</h3>
+                       <h3>56-7 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>9/18</h3>
+                        <img src="img/south_carolina.png" alt="South Carolina Logo">
+                        <h3>South Carolina</h3>
+                        <h3>40-13 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>9/25</h3>
+                        <img src="img/vanderbilt.png" alt="Vanderbilt Logo">
+                        <h3>@Vanderbilt</h3>
+                        <h3>62-0 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/2</h3>
+                        <img src="img/arkansas.png" alt="Arkansas Logo">
+                        <h3>Arkansas</h3>
+                        <h3>37-0 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/9</h3>
+                        <img src="img/auburn.png" alt="Auburn Logo">
+                        <h3>@Auburn</h3>
+                        <h3>34-10 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/16</h3>
+                        <img src="img/kentucky.png" alt="Kentucky Logo">
+                        <h3>Kentucky</h3>
+                        <h3>30-13 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/30</h3>
+                        <img src="img/florida.png" alt="Florida Logo">
+                        <h3>Florida <span><i>(Jacksonville, FL)</i></span></h3>
+                        <h3>34-7 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/6</h3>
+                        <img src="img/missouri.png" alt="Missouri Logo">
+                        <h3>Missouri</h3>
+                        <h3>43-6 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/13</h3>
+                        <img src="img/tennessee.png" alt="Tennessee Logo">
+                        <h3>@Tennessee</h3>
+                        <h3>41-17 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/20</h3>
+                        <img src="img/charleston s..png" alt="Charleston Southern Logo">
+                        <h3>Charleston S.</h3>
+                        <h3>56-7 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/27</h3>
+                        <img src="img/georgia_tech.png" alt="Georgia Tech Logo">
+                        <h3>@Georgia Tech</h3>
+                        <h3>45-0 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>SEC CHAMPIONSHIP GAME</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>12/4</h3>
+                        <img src="img/alabama.png" alt="Alabama Logo">
+                        <h3>Alabama <span><i>(Atlanta, GA)</i></span></h3></h3>
+                        <h3>24-41 l</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>CFB SEMI-FINAL GAME <span><i>(Orange Bowl)</i></span></h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>12/31</h3>
+                        <img src="img/michigan.png" alt="Michigan Logo">
+                        <h3>Michigan <span><i>(Miami, FL)</i></span></h3></h3>
+                        <h3>34-11 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>CFB NATIONAL CHAMPIONSHIP GAME</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>1/10</h3>
+                        <img src="img/alabama.png" alt="Alabama Logo">
+                        <h3>Alabama <span><i>(Indianapolis, IN)</i></span></h3></h3>
+                        <h3>33-18 w</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="schedule-2021" data-aos="flip-right">
+                <h2>2022 schedule and results</h2>
+                <div class="games">
+                    <div class="game">
+                       <h3>9/3</h3>
+                       <img src="img/oregon.png" alt="Oregon Logo">
+                       <h3>oregon <span><i>(Atlanta, GA)</i></span></h3> 
+                       <h3>49-3 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                       <h3>9/10</h3>
+                       <img src="img/samford.png" alt="Samford Logo">
+                       <h3>samford</h3>
+                       <h3>33-0 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>9/17</h3>
+                        <img src="img/south_carolina.png" alt="South Carolina Logo">
+                        <h3>@South Carolina</h3>
+                        <h3>48-7 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>9/24</h3>
+                        <img src="img/kent_state.png" alt="Kent State Logo">
+                        <h3>Kent State</h3>
+                        <h3>39-22 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/1</h3>
+                        <img src="img/missouri.png" alt="Missouri Logo">
+                        <h3>@Missouri</h3>
+                        <h3>26-22 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/8</h3>
+                        <img src="img/auburn.png" alt="Auburn Logo">
+                        <h3>Auburn</h3>
+                        <h3>42-10 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/15</h3>
+                        <img src="img/vanderbilt.png" alt="Vanderbilt Logo">
+                        <h3>Vanderbilt</h3>
+                        <h3>55-0 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>10/29</h3>
+                        <img src="img/florida.png" alt="Florida Logo">
+                        <h3>Florida <span><i>(Jacksonville, FL)</i></span></h3>
+                        <h3>42-20 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/5</h3>
+                        <img src="img/tennessee.png" alt="Tennessee Logo">
+                        <h3>Tennessee</h3>
+                        <h3>27-13 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/12</h3>
+                        <img src="img/mississippi state.png" alt="Mississippi State Logo">
+                        <h3>@Mississippi State</h3>
+                        <h3>45-19 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/19</h3>
+                        <img src="img/kentucky.png" alt="Kentucky Logo">
+                        <h3>@kentucky</h3>
+                        <h3>16-6 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>11/26</h3>
+                        <img src="img/georgia_tech.png" alt="Georgia Tech Logo">
+                        <h3>Georgia Tech</h3>
+                        <h3>37-14 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>SEC CHAMPIONSHIP GAME</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>12/3</h3>
+                        <img src="img/lsu.png" alt="LSU Logo">
+                        <h3>LSU <span><i>(Atlanta, GA)</i></span></h3></h3>
+                        <h3>50-30 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>CFB SEMI-FINAL GAME <span><i>(Peach Bowl)</i></span></h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>12/31</h3>
+                        <img src="img/ohio state.png" alt="Ohio State Logo">
+                        <h3>Ohio State <span><i>(Atlanta, GA)</i></span></h3></h3>
+                        <h3>42-41 w</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="sec">
+                        <h3>CFB NATIONAL CHAMPIONSHIP GAME</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="game">
+                        <h3>1/9</h3>
+                        <img src="img/tcu.png" alt="TCU Logo">
+                        <h3>TCU <span><i>(Los Angeles, CA)</i></span></h3>
+                        <h3>65-7 w</h3>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section class="schedules">
+            <div class="heading">
+               <h1>georgia bulldogs football</h1>
+               <h4>path to supremacy</h4>
+            </div>
+            <div class="recap-heading">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <h1>2021 regular season</h1>
+            <div class="line"></div>
+            <div class="schedule">
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/clemson.png" alt="Clemson logo">
+                    <h2>clemson</h2>
+                    <h3>semptember 4</h3>
+                    <h4><i>charlotte, NC</i></h4>
+                    <p>result: 10-3 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/uab.png" alt="UAB logo">
+                    <h2>UAB</h2>
+                    <h3>semptember 11</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 56-7 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/south_carolina.png" alt="South Carolina logo">
+                    <h2>south carolina</h2>
+                    <h3>semptember 18</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 40-13 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/vanderbilt.png" alt="Vanderbilt logo">
+                    <h2>@vanderbilt</h2>
+                    <h3>semptember 25</h3>
+                    <h4><i>nashville, TN</i></h4>
+                    <p>result: 62-0 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/arkansas.png" alt="Arkansas logo">
+                    <h2>arkansas</h2>
+                    <h3>october 2</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 37-0 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/auburn.png" alt="Auburn logo">
+                    <h2>@auburn</h2>
+                    <h3>october 9</h3>
+                    <h4><i>auburn, AL</i></h4>
+                    <p>result: 34-10 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/kentucky.png" alt="Kentucky logo">
+                    <h2>Kentucky</h2>
+                    <h3>october 16</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 30-13 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/florida.png" alt="Florida logo">
+                    <h2>florida</h2>
+                    <h3>october 30</h3>
+                    <h4><i>jacksonville, FL</i></h4>
+                    <p>result: 34-7 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/missouri.png" alt="Missouri logo">
+                    <h2>Missouri</h2>
+                    <h3>november 6</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 43-6 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/tennessee.png" alt="Tennessee logo">
+                    <h2>@tennessee</h2>
+                    <h3>november 13</h3>
+                    <h4><i>knoxville, TN</i></h4>
+                    <p>result: 41-17 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/charleston s..png" alt="Charleston Southern logo">
+                    <h2>charleston southern</h2>
+                    <h3>november 20</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 56-7 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/georgia_tech.png" alt="Georgia Tech logo">
+                    <h2>@georgia tech</h2>
+                    <h3>november 27</h3>
+                    <h4><i>atlanta, GA</i></h4>
+                    <p>result: 45-0 w</p>
+                </div>
+            </div>
+            <h1>post-season</h1>
+            <div class="line"></div>
+            <div class="post-season">
+                <div class="game-box" data-aos="fade-up">
+                    <h2>SEC Championship</h2>
+                    <img src="logos/alabama.png" alt="Alabama logo">
+                    <h2>alabama</h2>
+                    <h3>december 4</h3>
+                    <h4><i>atlanta, GA</i></h4>
+                    <p>result: 24-41 l </p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <h2>CFB Semi-Final</h2>
+                    <img src="logos/michigan.png" alt="Michigan logo">
+                    <h2>michigan</h2>
+                    <h3>december 31</h3>
+                    <h4><i>miami gardens, FL</i></h4>
+                    <p>result: 34-11 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <h2>CFB National Championship</h2>
+                    <img src="logos/alabama.png" alt="Alabama logo">
+                    <h2>alabama</h2>
+                    <h3>january 10</h3>
+                    <h4><i>indianapolis, IN</i></h4>
+                    <p>result: 33-18 w</p>
+                </div>
+            </div>
+            <h1>2022 regular season</h1>
+            <div class="line"></div>
+            <div class="schedule">
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/oregon.png" alt="Oregon logo">
+                    <h2>oregon</h2>
+                    <h3>semptember 3</h3>
+                    <h4><i>atlanta, GA</i></h4>
+                    <p>result: 49-3 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/samford.png" alt="Samford logo">
+                    <h2>samford</h2>
+                    <h3>semptember 10</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 33-0 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/south_carolina.png" alt="South Carolina logo">
+                    <h2>@south carolina</h2>
+                    <h3>semptember 17</h3>
+                    <h4><i>columbia, SC</i></h4>
+                    <p>result: 40-7 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/kent_state.png" alt="Kent State logo">
+                    <h2>kent state</h2>
+                    <h3>semptember 24</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 39-22 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/missouri.png" alt="Missouri logo">
+                    <h2>@Missouri</h2>
+                    <h3>october 1</h3>
+                    <h4><i>Columbia, MO</i></h4>
+                    <p>result: 26-22 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/auburn.png" alt="Auburn logo">
+                    <h2>auburn</h2>
+                    <h3>october 8</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 42-10 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/vanderbilt.png" alt="Vanderbilt logo">
+                    <h2>vanderbilt</h2>
+                    <h3>october 15</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 55-0 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/florida.png" alt="Florida logo">
+                    <h2>florida</h2>
+                    <h3>october 29</h3>
+                    <h4><i>jacksonville, FL</i></h4>
+                    <p>result: 42-20 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/tennessee.png" alt="Tennessee logo">
+                    <h2>tennessee</h2>
+                    <h3>november 5</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 27-13 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/mississippi state.png" alt="Mississippi State logo">
+                    <h2>@mississippi state</h2>
+                    <h3>november 12</h3>
+                    <h4><i>mississippi state, MS</i></h4>
+                    <p>result: 45-19 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/kentucky.png" alt="Kentucky logo">
+                    <h2>@kentucky</h2>
+                    <h3>november 19</h3>
+                    <h4><i>lexington, KY</i></h4>
+                    <p>result: 16-6 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <img src="logos/georgia_tech.png" alt="Georgia Tech logo">
+                    <h2>georgia tech</h2>
+                    <h3>november 26</h3>
+                    <h4><i>athens, GA</i></h4>
+                    <p>result: 37-14 w</p>
+                </div>
+            </div>
+            <h1>post-season</h1>
+            <div class="line"></div>
+            <div class="post-season">
+                <div class="game-box" data-aos="fade-up">
+                    <h2>SEC Championship</h2>
+                    <img src="logos/lsu.png" alt="LSU logo">
+                    <h2>LSU</h2>
+                    <h3>december 3</h3>
+                    <h4><i>atlanta, GA</i></h4>
+                    <p>result: 50-30 w </p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <h2>CFB Semi-Final</h2>
+                    <img src="logos/ohio state.png" alt="Ohio State logo">
+                    <h2>ohio state</h2>
+                    <h3>december 31</h3>
+                    <h4><i>atlanta, GA</i></h4>
+                    <p>result: 42-41 w</p>
+                </div>
+                <div class="game-box" data-aos="fade-up">
+                    <h2>CFB National Championship</h2>
+                    <img src="logos/tcu.png" alt="TCU logo">
+                    <h2>TCU</h2>
+                    <h3>january 9</h3>
+                    <h4><i>los angeles, CA</i></h4>
+                    <p>result: 65-7 w</p>
+                </div>
+            </div>
+            <div class="trophies">
+                <img src="img/bottom-trophy.png"  data-aos="fade-zoom-in" alt="trophy">
+                <img src="img/bottom-trophy.png"  data-aos="fade-zoom-in" data-aos-delay="500" alt="trophy">
+            </div>
+        </section>
+        <div class="bottom-heading">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <footer class="footer">
+            <div class="brand">
+               <h4>&copygeorgia bulldogs football 2023</h4>
+            </div>
+            <div class="icons">
+                <a href="https://georgiadogs.com/sports/football#dawghouse" target="_blank"><img src="logos/logo-2.png"></a>
+                <a href="https://www.facebook.com/FootballUGA/" target="_blank"><img src="icons/facebook.png"></a>
+                <a href="https://twitter.com/georgiafootball" target="_blank"><img src="icons/twitter.png"></a>
+                <a href="https://www.instagram.com/georgiafootball/?hl=en" target="_blank"><img src="icons/instagram.png"></a>
+                <a href="https://www.saturdaydownsouth.com/" target="_blank"><img src="logos/sec_logo.png"></a>
+            </div>
+            <div class="footer-line"></div>
+            <div class="designer">
+                <p><i>Site designed and developed by <a href="https://geraldandrewsmedia.com/" target="_blank">Gerald Andrews</a></i><p>
+            </div>
+        </footer>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>            
+   <script src="script.js"></script>
+
+   </body>
+</html> 
