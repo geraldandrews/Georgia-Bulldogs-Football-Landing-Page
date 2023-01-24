@@ -10,6 +10,7 @@ body {
    background: #ccc; 
 }
 
+/* HEADER SECTION */
 header {
    /** background: radial-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 1)),url(img/stadium-4.jpeg)center/cover fixed no-repeat;**/
     background: radial-gradient(50% 50% at center, transparent 0%, rgba(0, 0, 0, 0.9)),url(../img/stadium-4.jpeg)center/cover fixed no-repeat;
@@ -109,6 +110,7 @@ header .image img {
     }
 }
 
+/* AUDIO SECTION */
 #audio {
     background: #ccc; 
     margin: 0 auto;
@@ -164,6 +166,7 @@ div audio {
     height: 5px;
 }
 
+/* PHOTOS SECTION */
 .photos {
     background: #fff;
 }
@@ -206,79 +209,7 @@ div audio {
     }
 }
 
-
-/*.schedule {
-    background: url('../img/stadium-3.jpg') center/cover fixed no-repeat;
-    padding: 50px 0;
-    font-family: 'Oswald', sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.schedule-2021 {
-    width: 45%;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    padding-top: 10px;
-}
-
-.schedule-2021 h2 {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.schedule-2021 h3 {
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.schedule-2021 span {
-    font-size: 13px;
-}
-
-.schedule-2021 .games {
-    margin-top: 25px;
-}
-
-.schedule-2021 .game {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-items: center;
-    margin: 10px 0;
-}
-
-.schedule-2021 .game img {
-    width: 25%;
-}
-
-.schedule-2021 .line {
-    background: #fff;
-    height: 2px;
-    width: 85%;
-    margin: auto;
-}
-
-@media (max-width: 820px) {
-    .schedule {
-        flex-direction: column;
-    }
-
-    .schedule-2021 {
-        width: 75%;
-        margin: 50px auto;
-    }
-}
-
-@media (max-width: 600px) {
-    .schedule-2021 {
-        width: 100%;
-    }
-}*/ 
-
+/* SEASON RECAPS SECTION */
 .schedules {
     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('../img/stadium-3.jpg') center/cover fixed no-repeat; 
     font-family: 'Oswald', sans-serif;
@@ -515,6 +446,7 @@ div audio {
     }
 }
 
+/* FOOTER SECTION */
 .footer {
     background: #ff0000;
 }
