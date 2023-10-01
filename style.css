@@ -506,6 +506,12 @@ div audio {
     text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+    .designer {
+        padding: 0 15px;
+    }
+}
+
 
 
 
